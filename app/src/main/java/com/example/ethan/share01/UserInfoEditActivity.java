@@ -86,7 +86,7 @@ public class UserInfoEditActivity extends AppCompatActivity implements View.OnCl
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        ImageChooseUtil chooseImage = new ImageChooseUtil(data, getApplicationContext());
+        /*ImageChooseUtil chooseImage = new ImageChooseUtil(data, getApplicationContext());
 
         switch (requestCode) {
             case SELECT_PHOTO :
@@ -105,7 +105,7 @@ public class UserInfoEditActivity extends AppCompatActivity implements View.OnCl
                     //user_photo.setImageURI(selectedImage);
                     //Log.e("ImageURI", selectedImage.toString());
                 }
-        }
+        }*/
     }
 
 
